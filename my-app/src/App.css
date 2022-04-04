@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  color: white;
+  padding: 3rem;
+  padding-bottom: 5rem;
+}
+
+.top-header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-header{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+
+}
+
+.App-header h1{
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  text-align: left;
+}
+
+.App-header p{
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.top-header .logo{
+  height: 3rem;
+  width: 3rem;
+}
+
+.top-header .menu-img{
+  height: 1rem;
+  width: 1rem;
+}
+
+.App-header button{
+  display: flex;
+  /* height: 3rem; */
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.description-list{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
